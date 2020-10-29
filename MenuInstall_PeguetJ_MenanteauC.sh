@@ -194,7 +194,7 @@ export ipdelacent=172.16.60.1" >> /etc/bashrc
     yum -y install mariadb-server
     echo -e "${GREEN}Paquet MariaDB installé.${NC}"
     #yum -y install nmap
-    #echo -e "${GREEN}Paquet Nmap installé.${NC}"
+    #echo -e "${GREEN}Paquet Nmap installé.${NC}" 
     cd /home/$userdeladecent
     if [ -d "/home/$userdeladecent/.ssh/" ];then
       command > /dev/null 2>&1
